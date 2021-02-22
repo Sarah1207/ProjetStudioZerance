@@ -84,3 +84,24 @@ body {
     background-size: 100%;
     background-position: bottom;
 }
+
+
+/* PORFOLIO */
+
+#portfolio {
+    height : 60vh;
+    background-color : black;
+}
+
+#portfolio p {
+    font-family:"Karla Regular";
+    font-weight: 400;
+    font-size : 1.5rem;
+    text-transform: uppercase;
+    color : white;
+
+}
+
+#portfolio img {
+    width: 100px;
+}
