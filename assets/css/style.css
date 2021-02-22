@@ -1,0 +1,86 @@
+
+*{
+    box-sizing: border-box;
+}
+
+
+@font-face {
+    font-family: "Karla Regular";
+    src: url("../fonts/Karla-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family:"Karla Regular";
+    color: black;
+}
+
+
+/* HEADER  */
+
+
+#header-nav ul {
+    list-style: none;
+    font-weight: 700;
+    font-style: normal;
+    font-size : 1.2rem;
+    letter-spacing: 0.3px;
+    font-family:"Karla Regular";
+}
+
+#header-nav ul li a,
+#header-nav ul li a:visited {
+    color : black;
+    text-decoration: none;
+}
+
+#header-nav ul li a:hover {
+    color : rgb(255, 205, 26);
+    text-decoration: underline;
+    text-decoration-color: rgb(255, 205, 26);
+    text-decoration-style: solid;
+}
+
+#header-nav .nav-logo {
+    max-width: 200px; 
+    height: auto;
+}
+
+/* Banniere */
+#banniere {
+    height : 60vh;
+    background-color : white;
+    line-height: 1.2;
+}
+
+#banniere p {
+    font-family:"Karla Regular";
+    font-weight: 400;
+    font-size : 1.5rem;
+    text-transform: uppercase;
+
+
+}
+#banniere h1 {
+    font-weight: 700;
+    font-family:"Karla Regular";
+    font-style: normal;
+    font-size : 4.2rem;
+    letter-spacing: 0.3px;
+}
+
+#banniere h1::before {
+    content : "<";
+}
+
+#banniere h1::after {
+    content : "/>";
+}
+
+#banniere .yellow-line {
+    background-image: url(../img/yellow-line.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+}
