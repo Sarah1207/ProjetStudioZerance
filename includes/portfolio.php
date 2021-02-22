@@ -7,7 +7,9 @@
         <div class="row mb-4">
             <div class="col-1"> </div>
             <div class="col-2">
-                <img alt="logo" class="logo-clients" src="assets/img/clients/yoko.jpg">
+                <a href="https://yokoshop.com/" target="_blank"> 
+                    <img alt="logo" class="logo-clients" src="assets/img/clients/yoko.jpg">
+                </a>
             </div> 
             <div class="col-2">
                 <img alt="logo" class="logo-clients" src="assets/img/clients/webedia.jpg">
