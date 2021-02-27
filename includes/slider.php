@@ -1,33 +1,36 @@
 <div id="slider" class="carousel slide" data-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100" src="assets/img/slider/Artboard_1.jpg" alt="slide">
+  
+  <div class="carousel-inner carrousel-inner-perso">
+    <div class="carousel-item active" data-interval="5000">
+      <img class="d-block w-100" src="assets/img/slider/Artboard_1.jpg"  alt="slide">
+      <div class="carousel-caption d-none d-md-block" id="legende-slide">
+        <h5> From scratch </h5>
+        <p>LOGO</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur, ab fuga autem modi adipisci Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur, ab fuga autem modi adipisciLorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur, ab fuga autem modi adipisci
+        </p>
+        <a href="#" class="cta"> Voir plus </a>
+      </div>
     </div>
-    <div class="carousel-item">
+
+    <div class="carousel-item" data-interval="15000">
       <img class="d-block w-100" src="assets/img/slider/Artboard_2.jpg"  alt="slide">
-      <div id="legende-slide" class="carousel-caption">
-
-<h2> Titre </h2>
-<img alt="logo" class="logo-clients" src="assets/img/clients/yoko.jpg">
-<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti eum excepturi ipsa, dolorum maxime placeat veniam et deserunt quidem magni aperiam quaerat voluptates id debitis incidunt in quo harum laudantium. </p>
-<a> Voir plus </a>
-
-</div>
+      <div class="carousel-caption d-none d-md-block" id="legende-slide">
+        <h5> From scratch </h5>
+        <p>LOGO</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur, ab fuga autem modi adipisci
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur, ab fuga autem modi adipisci
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur, ab fuga autem modi adipisci</p>
+        <a href="#" class="cta"> Voir plus </a>
+      </div>
     </div>
-    <div id="legende-slide">
 
-<h2> Titre </h2>
-<img alt="logo" class="logo-clients" src="assets/img/clients/yoko.jpg">
-<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti eum excepturi ipsa, dolorum maxime placeat veniam et deserunt quidem magni aperiam quaerat voluptates id debitis incidunt in quo harum laudantium. </p>
-<a> Voir plus </a>
+   
 
-</div>
   </div>
 
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+  <a class="carousel-control-next" href="#slider" role="button" data-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
-
 
 </div>

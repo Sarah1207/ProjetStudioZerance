@@ -12,10 +12,10 @@
 
 <div class="col-9">
     <ul class="nav-menu d-flex justify-content-end">
-        <li class="px-4 pt-3"> <a href="#"> Nos clients </a> </li>
-        <li class="px-4 pt-3"> <a href="#"> Notre offre </a> </li>
-        <li class="px-4 pt-3"> <a href="#"> Le Studio </a> </li>
-        <li class="px-4 pt-3"> <a href="#"> Contact </a> </li>
+        <li class="px-4 pt-3"> <a href="#portfolio"> Nos clients </a> </li>
+        <li class="px-4 pt-3"> <a href="#slider"> Notre offre </a> </li>
+        <li class="px-4 pt-3"> <a href="#footer"> Le Studio </a> </li>
+        <li class="px-4 pt-3"> <a href="contact.php"> Contact </a> </li>
     </ul>
 </div>
 

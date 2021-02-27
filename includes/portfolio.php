@@ -2,7 +2,7 @@
     
 <p class="py-5"> Nos clients sont géniaux </p>
 
-    <div class="container text-center mx-auto">
+    <div class="container text-center mx-auto py-5">
 
         <div class="row mb-4">
             <div class="col-1"> </div>
